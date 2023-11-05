@@ -1,0 +1,17 @@
+Match a Word:
+Task: Write a regular expression to match any word (sequence of letters).
+Test String: "Hello, World!"
+Regular Expression: \w+
+
+Extract Email Addresses:
+Task: Extract all email addresses from a given text.
+Test String: "Contact support at support@example.com and john.doe123@company.co.uk."
+Regular Expression: (\w+\.*\w+.)\@(\w+\.*\w+\.*\w+)
+
+Validate Phone numbers:
+Task: Validate a phone number in the format (XXX) XXX-XXXX.
+Test String: "Call us at (123) 456-7890 or (987) 654-3210.
+Regular Expression: \(\d{3}\)\s\d{3}-\d{4}
+
+
+
